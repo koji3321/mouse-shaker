@@ -27,7 +27,7 @@ func main() {
 	fmt.Println(dev)
 	listener, err := keylogger.New(dev[0])
 	if err != nil {
-		fmt.Println("anan seks")
+		fmt.Println("hata")
 		return
 	}
 
